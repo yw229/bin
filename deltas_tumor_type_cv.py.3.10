@@ -1,0 +1,189 @@
+
+
+#!/dmp/resources/prod/tools/system/python/Python-2.7.3/bin/python
+# -*- coding: utf-8 -*-
+import os
+import sys
+import csv
+import argparse
+import re
+from mskcc.dmp.cvr.utils.dmp_logger import DMPLogger
+from mskcc.dmp.cvr.utils.dmp_properties import Properties
+from org.mskcc.dmp.dmutils.dmp_db import DMPdb
+
+#def _make_pivot() :
+dbDic = {} #map the stripped tissue_type or tummor_type to the tumor_type_cv_id DB records
+fileDic = {} #map the stripped tissue_type or tummor_type to File records
+uniq_ts = [] 
+
+new_tis =[]
+new_tum = [] 
+new_code = [] 
+duplic_r = [] 
+
+def getCVRDBHandle(logger):
+    dbObj = None
+    propObj = Properties()
+    logger.debug( "%s - %s - %s"%(propObj.getCVRDBUser(),propObj.getCVRDBServer(),propObj.getCVRDBName()))
+    try:
+        dbObj = DMPdb(
+                       propObj.getCVRDBUser(),
+                       propObj.getCVRDBPass(),
+                       propObj.getCVRDBServer(),
+                       propObj.getCVRDBName()
+                     )
+    except Exception as e:
+        logger.error(e)
+        dbObj = None
+        raise("Database handle not created!")
+    return dbObj
+
+
+def strip(s):
+	return re.sub('[^0-9a-zA-Z]+', '', s).lower()
+
+def sql_has_records(dbObj,sql):
+    dbObj.execute(sql)
+    rec = dbObj.fetchall()#tuple with each dict element
+    pivDB = {}
+    #print sql
+    if rec:
+    	for r in rec :
+                    v = r['code']
+                    #print r['tissue_type'] , r['tumor_type']
+    		#dbDic[ strip()]
+                    records = [r['tissue_type'] , r['tumor_type']]
+                    records_t = (r['tissue_type'] , r['tumor_type'])
+    		#strpr = [strip(r['tissue_type']), strip(r['tumor_type'])]
+                    #print v ,records
+                    uniq_ts.append(r['tissue_type'])
+                    _makePivotDic(records,v,pivDB)
+
+                    dbDic[records_t ] = r['tumor_type_cv_id']
+    #print dbDic
+    return pivDB
+
+
+
+
+def  getTumor():
+    logger = DMPLogger()
+    logger = logger.getCVRLogger("TestDB")
+    logger.debug("Creating database connection")
+    dbObj = None
+    try:
+        dbObj = getCVRDBHandle(logger)
+        dbObj.connect()
+        logger.debug("Successful connection")
+        dbObj = getCVRDBHandle(logger)
+        dbObj.connect()
+        logger.debug("Successful connection")
+
+        #sql = "select * from tumor_type_cv where tumor_type = '%s' and code = '%s' "
+        sqlA =  "select * from tumor_type_cv"
+        #dbObj.execute(sql)
+        #sql_cursor_exe(dbObj,sql)
+        #r1 =csv.reader(open(f,"rU"),delimiter='\t', quotechar='"')
+        #row_records = list(r1) [1:] #exclude the header records
+        #for r in row_records:
+        	#results = sql_has_records(dbObj,sql%(r[1],r[2]))
+        	#if results  =='null' :
+        	#	print ( r[0]+ ','+r[1] + ',' +r[2] )
+        		#results
+        return sql_has_records(dbObj,sqlA)
+    except Exception as e :
+        logger.error(e)
+    finally:
+        if dbObj:
+            dbObj.disconnect()
+
+    logger.debug("Completed testing!")
+
+
+def parse_csv(f):
+    if not os.path.exists(f):
+        print sys.stderr,"file %s not exists" %f
+    else:
+        r1 =csv.reader(open(f,"rU"),delimiter='\t', quotechar='"')
+        #r1_dic = csv.DictReader(open(f,"rU"),delimiter='\t', quotechar='"')
+        rws = list(r1)
+		#rwsd = list(r1_dic)
+        h=rws [0]
+		#print  h, len(rws) , len(rwsd),type(rws),type(rwsd)
+		#print list(r1_dic)
+		#for r in rwsd:
+		#	print r[h[0]],r[h[1]],r[h[2]]
+		#for r in rws:
+		#	print r
+
+		#print _makePivotDic(h[0],h[1:])
+        pivotD={}
+        for r in rws[1:]:
+            #v = tuple(r[:2])
+            #k = tuple([strip(r[0]),strip(r[1]) ] )
+            _makePivotDic(r[:2],r[2],pivotD)
+
+		#for r in rws[1:]:
+		#	print  '%s is %s' %(h[1] , r[1])
+		#return pivotD
+		#print pivotD.keys()
+    return pivotD
+
+
+def _makePivotDic(records,v,pivotD): #tuple, different value,make generic pattern of pivot-pairs-tuple map to different value dic
+	ktup= tuple( v for v in records)
+	#print valueTp
+	#v =strip(v)
+	#print ktup,v
+	if ktup not in pivotD:
+		pivotD[ktup] =[]
+	pivotD[ktup].append(v)
+
+
+def _write_file(f, data): #write to file
+    with open(f, 'wb') as fp:
+        a = csv.writer(fp,delimiter='\t')
+        a.writerows([['tissue_type','tumor_type','code'],])
+        a.writerows(data)
+
+def diff(f):
+    d1 =  getTumor() #db records
+    d2 = parse_csv(f) #file records
+    print len(d2)
+    for k in d2:
+        l = [k[0],k[1], d2[k][0]] 
+        if k[0] not in uniq_ts: # tissue_type does not exist
+            #print 'recrods %s for  tissue_type %s does not exist in db' %(k,k[0])
+            #l = [k[0],k[1], d2[k][0]]
+            #print l
+            new_tis.append(l)
+        elif k not in d1.keys(): # (tissue_type,tumor) not in db
+            #print 'tumor is not in, butttt tissue_type is in ' #k,d2[k]
+            #l = [k[0],k[1],d2[k][0]]
+            #print l 
+            new_tum.append(l)
+        elif d2[k] !=d1[k]:
+                #print 'different code in db is %s in file is %s , the records in file is %s , and the tumor_type_cv_id in db is %s ' %(d1[k],d2[k] ,k, dbDic[k])
+                                    #print '(tissue_type,tumor_type) %s are existing in db ' %k
+                #print l 
+            new_code.append(l)
+        elif k in d1.keys():
+            #print l
+            duplic_r.append(l)
+    _write_file('new_tissue_types.txt',new_tis)
+    _write_file('new_tumor_types_in_existing_tissues.txt',new_tum)
+    _write_file('new_code_for_existing_tissues_tumors.txt',new_code)
+
+if __name__ == '__main__':
+            f = 'onco_tree_for_Aijaz.txt'
+
+            #print parse_csv(f)
+            diff(f)
+            #print len(uniq_ts)
+            #print new_tis,len(new_tis)
+            print len(new_tis)
+            #_write_file('o',new_tis)
+            print len(new_tum)
+            print len(new_code)  
+            print len(duplic_r)     
+	#print dbDic,fileDic

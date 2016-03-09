@@ -1,0 +1,21 @@
+tissue_type	tumor_type	code
+Uterus	Uterine Myxoid Leiomyosarcoma	UMLMS
+Ovary	Mixed Ovarian Carcinoma	MXOV
+Uterus	Uterine Epithelioid Leiomyosarcoma	UELMS
+Uterus	Uterine Carcinosarcoma / Uterine Malignant Mixed Müllerian Tumor	UCS
+Brain_CNS	Melanotic Schwannoma	MSCHW
+Lymph	Non-Hodgkin’s Lymphoma	NHL
+Head_Neck	Clear Cell Odontogenic Carcinoma	CCOC
+Skin	Dermatofibroma	DF
+Uterus	Other Uterine Tumor	OUTT
+Breast	Breast Carcinoma with Signet Ring	BRSRCC
+Soft_Tissue	Undifferentiated Pleomorphic Sarcoma / Malignant Fibrous Histiocytoma / High Grade Spindle Cell Sarcoma	MFH
+Brain_CNS	Low-Grade Glioma, NOS	LGGNOS
+Bladder_Urinary_Tract	Urethral Squamous Cell Carcinoma	USCC
+Prostate	Prostate Adenocarcinoma	PRAD
+Breast	Breast Invasive Cancer, NOS	BRCANOS
+Soft_Tissue	Low-Grade Fibromyxoid Sarcoma	LGFMS
+Lung	Salivary Gland–Type Tumor of the Lung	SGTTL
+Breast	Invasive Breast Carcinoma	BRCA
+Kidney	Clear Cell Papillary Renal Cell Carcinoma	CCPRC
+Brain_CNS	High-Grade Glioma, NOS	HGGNOS

@@ -1,0 +1,11 @@
+ls
+cd ~/Development
+ls
+cd workspace/
+ls
+cd UI
+ls
+cd dmp-cvr
+ls
+cd bin/
+history  -a IMPACTv5-CLIN-20150134 -r /dmp/dms/qc-data/IMPACT/2015/IMPACTv5-CLIN-20150134/20150517_18.50/ -u 9

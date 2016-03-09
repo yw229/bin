@@ -1,0 +1,29 @@
+tissue_type	tumor_type	code
+NOT_SPECIFIED	NOT SPECIFIED	NOT SPECIF
+Brain_CNS		
+Breast	Breast Carcinoma	BRCA
+Kidney	Kidney Chromophobe	KICH
+Kidney	Kidney Renal Clear Cell Carcinoma	KIRC/CCRCC
+Kidney	Kidney Renal Medullary Carcinoma	KIRM/MRC
+Kidney	Kidney Renal Oncocytoma	KIOC
+Kidney	Kidney Renal Papillary Cell Carcinoma	KIRP/PRCC
+Kidney	Wilms Tumor	WT
+Lung	Lung Adenoid Cystic Carcinoma	LUACC
+Lymph	Non-Hodgkin's Lymphoma	NHL
+Mesothelium	Pulmonary Mesothelioma	PUMESO
+Ovary	Clear Cell Borderline Ovarian Cancer	CCBOV
+Ovary	Endometrioid Borderlin Ovarian Cancer	EBOV
+Ovary	Mucinous Borderline Ovarian Cancer	MBOV
+Ovary	Ovarian Epithelial Carcinoma	OVCA
+Ovary	Serous Borderline Ovarian Cancer	SBCO
+Ovary	Serous Borderline Ovarian Cancer, Micropapillary	SBMCO
+Prostate	Prostate Acinar Adenocarcinoma	PRAD
+Prostate	Prostate Ductal Adenocarcinoma	PRDA
+Skin	Skin Basal Cell Carcinoma	SKBC
+Skin	Skin Squamous Cell Carcinoma	SKSC
+Soft_Tissue	Undifferentiated Pleomorphic Sarcoma / Malignant Fibrous Histiocytoma / High Grade Spindle Cell Sarc	MFH
+Uterus	Uterine Carcinosarcoma / Uterine Malignant Mixed M'llerian Tumor	UCS
+Uterus	Uterine Dedifferentiated Carcinoma	UDDC
+Mesothelium	Mesothelioma	MESO
+Lung	Salivary Gland-Type Tumor of the Lung	SGTTL
+Olfactory Neuroblastoma	Olfactory Neuroblastoma	ONBL

@@ -1,0 +1,2 @@
+tissue_type	tumor_type	code
+Head_Neck	Nasopharyngeal Carcinoma	NPC

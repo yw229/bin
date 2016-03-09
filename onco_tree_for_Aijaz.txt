@@ -1,0 +1,496 @@
+Tissue_Type	Tumor_type	Code
+Adrenal_Gland	Adrenocortical Adenoma	ACA
+Adrenal_Gland	Adrenocortical Carcinoma	ACC
+Adrenal_Gland	Pheochromocytoma	PHC
+Ampulla_of_Vater	Ampullary Carcinoma	AMPCA
+Ampulla_of_Vater	Intestinal Ampullary Carcinoma	IAMPCA
+Ampulla_of_Vater	Mixed Ampullary Carcinoma	MAMPCA
+Ampulla_of_Vater	Pancreatobiliary Ampullary Carcinoma	PAMPCA
+Biliary_Tract	Cholangiocarcinoma	CHOL
+Biliary_Tract	Extrahepatic Cholangiocarcinoma	EHCH
+Biliary_Tract	Gallbladder Cancer	GBC
+Biliary_Tract	Intrahepatic Cholangiocarcinoma	IHCH
+Biliary_Tract	Perihilar Cholangiocarcinoma	PHCH
+Bladder_Urinary_Tract	Bladder Adenocarcinoma	BLAD
+Bladder_Urinary_Tract	Bladder Squamous Cell Carcinoma	BLSC
+Bladder_Urinary_Tract	Bladder Urothelial Carcinoma	BLCA
+Bladder_Urinary_Tract	Inflammatory Myofibroblastic Bladder Tumor	IMTB
+Bladder_Urinary_Tract	Plasmacytoid / Signet Ring Cell Bladder Carcinoma	SRCBC
+Bladder_Urinary_Tract	Small Cell Bladder Cancer	SCBC
+Bladder_Urinary_Tract	Upper Tract Urothelial Carcinoma	UTUC
+Bladder_Urinary_Tract	Urethral Squamous Cell Carcinoma	USCC
+Blood	Acute Lymphoid Leukemia	ALL
+Blood	Acute Monocytic Leukemia	AMOL
+Blood	Acute Myeloid Leukemia	AML
+Blood	B-Cell Acute Lymphoid Leukemia	BALL
+Blood	Blastic Plasmacytoid Dendritic Cell Neoplasm	BPDCN
+Blood	Chronic Lymphocytic Leukemia	CLL
+Blood	Chronic Myelogenous Leukemia	CML
+Blood	Essential Thrombocythaemia	ETC
+Blood	Hairy Cell Leukemia	HCL
+Blood	Histiocytosis	HIST
+Blood	Langerhans Cell Histiocytosis	LCH
+Blood	Large Granular Lymphocytic Leukemia	LGLL
+Blood	Leukemia	LEUK
+Blood	Multiple Myeloma	MM
+Blood	Myelodysplasia	MDS
+Blood	Myelofibrosis / Osteomyelofibrosis	MYF
+Blood	Myeloproliferative Neoplasm	MPN
+Blood	Non-Langerhans Cell Histiocytosis / Erdheim-Chester Disease	ECD
+Blood	Polycythemia Vera 	PCV
+Blood	T-Cell Acute Lymphoid Leukemia	TALL
+Bone	Chondroblastic Osteosarcoma	CHOS
+Bone	Chondroblastoma	CHBL
+Bone	Chondrosarcoma	CHS
+Bone	Chordoma	CHDM
+Bone	Conventional Type Chordoma	CCHDM
+Bone	Dedifferentiated Chondrosarcoma	DDCHS
+Bone	Dedifferentiated Chordoma 	DDCHDM
+Bone	Ewing Sarcoma	ES
+Bone	Extraskeletal Myxoid Chondrosarcoma	EMCHS
+Bone	Fibroblastic Osteosarcoma	FIOS
+Bone	Giant Cell Tumor of Bone	GCTB
+Bone	High Grade Surface Osteosarcoma	HGSOS
+Bone	Low Grade Central Osteosarcoma	LGCOS
+Bone	Mesenchymal Chondrosarcoma	MCHS
+Bone	Myxoid Chondrosarcoma	MYCHS
+Bone	Osteoblastic Osteosarcoma	OSOS
+Bone	Osteosarcoma	OS
+Bone	Parosteal Osteosarcoma	PAOS
+Bone	Periosteal Osteosarcoma	PEOS
+Bone	Secondary Osteosarcoma	SECOS
+Bone	Small Cell Osteosarcoma	SCOS
+Bone	Telangiectatic Osteosarcoma	TEOS
+Bowel	Anal Squamous Cell Carcinoma	ANSC
+Bowel	Anorectal Mucosal Melanoma	ARMM
+Bowel	Appendiceal Adenocarcinoma	APAD
+Bowel	Colon Adenocarcinoma	COAD
+Bowel	Colonic Type Adenocarcinoma of the Appendix	CTAAP
+Bowel	Colorectal Adenocarcinoma	COADREAD
+Bowel	Gastrointestinal Neuroendocrine Tumors	GINET
+Bowel	Goblet Cell Carcinoid of the Appendix	GCCAP
+Bowel	High Grade Neuroendocrine Carcinoma of the Colon and Rectum	HGNEC
+Bowel	Malignant Carcinoid of the Appendix	MCAP
+Bowel	Mucinous Adenocarcinoma of the Appendix	MAAP
+Bowel	Mucinous Colorectal Carcinoma	MCCA
+Bowel	Rectal Adenocarcinoma	READ
+Bowel	Scirrhous Carcinoma of the Colon and Rectum	SCCR
+Bowel	Signet Ring Cell Type of the Appendix	SRAP
+Bowel	Small Bowel Cancer	SBC
+Brain_CNS	Anaplastic Astrocytoma	AASTR
+Brain_CNS	Anaplastic Ependymoma	APE
+Brain_CNS	Anaplastic Ganglioglioma	AGNG
+Brain_CNS	Anaplastic Meningioma	ANM
+Brain_CNS	Anaplastic Oligoastrocytoma	AOAST
+Brain_CNS	Anaplastic Oligodendroglioma	AODG
+Brain_CNS	Angiocentric Glioma	ANGL
+Brain_CNS	Astroblastoma	ASTB
+Brain_CNS	Astrocytoma	ASTR
+Brain_CNS	Atypical Choroid Plexus Papilloma	ACPP
+Brain_CNS	Atypical Meningioma	ATM
+Brain_CNS	Atypical Pituitary Adenoma	APTAD
+Brain_CNS	Atypical Teratoid / Rhabdoid Tumor	ATRT
+Brain_CNS	Cellular Schwannoma	CSCHW
+Brain_CNS	Central Neurocytoma	CNC
+Brain_CNS	Cerebellar Liponeurocytoma	CLNC
+Brain_CNS	Chordoid Glioma of the Third Ventricle	CHGL
+Brain_CNS	Chordoid Meningioma	CHOM
+Brain_CNS	Choriocarcinoma	BCCA
+Brain_CNS	Choroid Plexus Carcinoma	CPC
+Brain_CNS	Choroid Plexus Papilloma	CPP
+Brain_CNS	Choroid Plexus Tumor	CPT
+Brain_CNS	Clear Cell Ependymoma	CCE
+Brain_CNS	Clear cell Meningioma	CCM
+Brain_CNS	Craniopharyngioma, Adamantinomatous Type	ACPG
+Brain_CNS	Craniopharyngioma, Papillary Type	PCGP
+Brain_CNS	Desmoplastic / Nodular Medulloblastoma	DMBL
+Brain_CNS	Desmoplastic Infantile Astrocytoma	DIA
+Brain_CNS	Desmoplastic Infantile Ganglioglioma	DIG
+Brain_CNS	Diffuse Glioma	DIFG
+Brain_CNS	Diffuse Intrinsic Pontine Glioma	DIPG
+Brain_CNS	Dysembryoplastic Neuroepithelial Tumor	DNT
+Brain_CNS	Dysplastic Gangliocytoma of the Cerebellum / Lhermitte-Duclos Disease	LDD
+Brain_CNS	Embryonal Carcinoma	BEC
+Brain_CNS	Embryonal Tumor	EMBT
+Brain_CNS	Embryonal Tumor with Abundant Neuropil and True Rosettes	ETANTR
+Brain_CNS	Encapsulated Glioma	ENCG
+Brain_CNS	Ependymoma	EPM
+Brain_CNS	Ependymomal Tumor	EPMT
+Brain_CNS	Extraventricular Neurocytoma	EVN
+Brain_CNS	Gangliocytoma	GNC
+Brain_CNS	Ganglioglioma	GNG
+Brain_CNS	Germ Cell Tumor, Brain	BGCT
+Brain_CNS	Germinoma	GMN
+Brain_CNS	Glioblastoma	GB
+Brain_CNS	Glioblastoma Multiforme	GBM
+Brain_CNS	Gliosarcoma	GSARC
+Brain_CNS	Granular Cell Tumor	GCT
+Brain_CNS	Hemangioblastoma	HMBL
+Brain_CNS	Hemangiopericytoma of the Central Nervous System	HPCCNS
+Brain_CNS	High-Grade Glioma, NOS	HGGNOS
+Brain_CNS	High-grade Neuroepithelial Tumor	HGNET
+Brain_CNS	Immature Teratoma	BIMT
+Brain_CNS	Large Cell / Anaplastic Medulloblastoma	AMBL
+Brain_CNS	Low-Grade Glioma, NOS	LGGNOS
+Brain_CNS	Low-grade Neuroepithelial Tumor	LGNET
+Brain_CNS	Malignant Lymphoma	MLYM
+Brain_CNS	Malignant Peripheral Nerve Sheath Tumor	MPNST
+Brain_CNS	Malignant Teratoma	BMGT
+Brain_CNS	Malignant Tumor	MT
+Brain_CNS	Mature Teratoma	BMT
+Brain_CNS	Medulloblastoma	MBL
+Brain_CNS	Medulloblastoma with Extensive Nodularity	MBEN
+Brain_CNS	Medulloepithelioma	MDEP
+Brain_CNS	Medullomyoblastoma	MMB
+Brain_CNS	Melanotic Medulloblastoma	MMBL
+Brain_CNS	Melanotic Schwannoma	MSCHW
+Brain_CNS	Meningioma	MNG
+Brain_CNS	Meningothelial Tumor	MNGT
+Brain_CNS	Mesenchymal Chondrosarcoma of the CNS	MCHSCNS
+Brain_CNS	Miscellaneous Brain Tumor	MBT
+Brain_CNS	Miscellaneous Neuroepithelial Tumor	MNET
+Brain_CNS	Mixed Germ Cell Tumor	BMGCT
+Brain_CNS	Myxopapillary Ependymoma	MPE
+Brain_CNS	Nerve Sheath Tumor	NST
+Brain_CNS	Neuroblastoma	NBL
+Brain_CNS	Neurofibroma	NFIB
+Brain_CNS	Oligoastrocytoma	OAST
+Brain_CNS	Oligodendroglioma	ODG
+Brain_CNS	Papillary Glioneuronal Tumor	PGNT
+Brain_CNS	Papillary Meningioma	PPM
+Brain_CNS	Papillary Tumor of the Pineal Region	PTPR
+Brain_CNS	Paraganglioma	PGNG
+Brain_CNS	Pilocytic Astrocytoma	PAST
+Brain_CNS	Pilomyxoid Astrocytoma	PMA
+Brain_CNS	Pineal Parenchymal Tumor of Intermediate Differentiation	PPTID
+Brain_CNS	Pineal Tumor	PINT
+Brain_CNS	Pineoblastoma	PBL
+Brain_CNS	Pineocytoma	PINC
+Brain_CNS	Pituicytoma	PTCY
+Brain_CNS	Pituitary Adenoma	PTAD
+Brain_CNS	Pituitary Carcinoma	PTCA
+Brain_CNS	Pleomorphic Xanthoastrocytoma	PXA
+Brain_CNS	Primary Brain Tumor	PBT
+Brain_CNS	Primary Neuroepithelial Tumor	PRNET
+Brain_CNS	Primitive Neuroectodermal Tumor	PNET
+Brain_CNS	Rhabdoid Meningioma	RHM
+Brain_CNS	Rosette-forming Glioneuronal Tumor of the Fourth Ventricle	RGNT
+Brain_CNS	Schwannoma	SCHW
+Brain_CNS	Sellar Tumor	SELT
+Brain_CNS	Small Cell Glioblastoma	SCGBM
+Brain_CNS	Solitary Fibrous Tumor of the Central Nervous System	SFTCNS
+Brain_CNS	Spindle Cell Oncocytoma of the Adenohypophysis	SCOAH
+Brain_CNS	Subependymoma	SUBE
+Brain_CNS	Yolk Sac Tumor	BYST
+Breast	Adenoid Cystic Breast Cancer	ACBC
+Breast	Breast Carcinoma with Signet Ring	BRSRCC
+Breast	Breast Ductal Carcinoma In Situ	DCIS
+Breast	Breast Invasive Cancer, NOS	BRCANOS
+Breast	Breast Invasive Ductal Carcinoma	IDC
+Breast	Breast Invasive Lobular Carcinoma	ILC
+Breast	Breast Invasive Mixed Mucinous Carcinoma	IMMC
+Breast	Breast Lobular Carcinoma In Situ	LCIS
+Breast	Breast Mixed Ductal and Lobular Carcinoma	MDLC
+Breast	Carcinoma with Chondroid Metaplasia	CCHM
+Breast	Carcinoma with Osseous Metaplasia	COM
+Breast	Epithelial Type Metaplastic Breast Cancer	EMBC
+Breast	Inflammatory Breast Cancer	IBC
+Breast	Invasive Breast Carcinoma	BRCA
+Breast	Metaplastic Adenocarcinoma with Spindle Cell Differentiation	MASCC
+Breast	Metaplastic Adenosquamous Carcinoma	MASC
+Breast	Metaplastic Breast Cancer	MBC
+Breast	Metaplastic Carcinosarcoma	MCS
+Breast	Metaplastic Squamous Cell Carcinoma	MSCC
+Breast	Mixed Type Metaplastic Breast Cancer	MMBC
+Breast	Paget Disease	PAGD
+Cervix	Cervical Adenocarcinoma	CEAD
+Cervix	Cervical Adenosquamous Carcinoma	CEAS
+Cervix	Cervical Clear Cell Carcinoma	CECC
+Cervix	Cervical Leiomyosarcoma	CELI
+Cervix	Cervical Neuroendocrine Tumor	CENE
+Cervix	Cervical Rhabdomyosarcoma	CERMS
+Cervix	Cervical Serous Carcinoma	CESE
+Cervix	Cervical Squamous Cell Carcinoma	CESC
+Cervix	Cervival Adenoid Basal Carcinoma	CABC
+Cervix	Cervival Adenoid Cystic Carcinoma	CACC
+Cervix	Endocervical Adenocarcinoma	ECAD
+Cervix	Endometrioid Carcinoma	CEEN
+Cervix	Gastric Type Mucinous Carcinoma	GCEMU
+Cervix	Glassy Cell Carcinoma of the Cervix	CEGCC
+Cervix	Intestinal Type Mucinous Carcinoma	ICEMU
+Cervix	Mesonephric Carcinoma	CEMN
+Cervix	Mucinous Carcinoma	CEMU
+Cervix	Signet Ring Mucinous Carcinoma	SCEMU
+Cervix	Small Cell Carcinoma of the Cervix	SCCE
+Cervix	Villoglandular Adenocarcinoma of the Cervix	VGCE
+Cervix	Villoglandular Carcinoma	CEVG
+Esophagus_Stomach	Adenocarcinoma of the Gastroesophageal Junction	GEJ
+Esophagus_Stomach	Adenosquamous Carcinoma of the Stomach	STAS
+Esophagus_Stomach	Diffuse Type Stomach Adenocarcinoma	DSTAD
+Esophagus_Stomach	Esophageal Adenocarcinoma	ESCA
+Esophagus_Stomach	Esophageal Poorly Differentiated Carcinoma	EPDCA
+Esophagus_Stomach	Esophageal Squamous Cell Carcinoma	ESCC
+Esophagus_Stomach	Esophagogastric Adenocarcinoma	EGC
+Esophagus_Stomach	Gastric Remnant Adenocarcinoma	GRC
+Esophagus_Stomach	Intestinal Type Stomach Adenocarcinoma	ISTAD
+Esophagus_Stomach	Mucinous Stomach Adenocarcinoma	MSTAD
+Esophagus_Stomach	Papillary Stomach Adenocarcinoma	PSTAD
+Esophagus_Stomach	Poorly Differentiated Carcinoma of the Stomach	SPDAC
+Esophagus_Stomach	Signet Ring Cell Carcinoma of the Stomach	SSRCC
+Esophagus_Stomach	Small Cell Carcinoma of the Stomach	STSC
+Esophagus_Stomach	Stomach Adenocarcinoma	STAD
+Esophagus_Stomach	Tubular Stomach Adenocarcinoma	TSTAD
+Esophagus_Stomach	Undifferentiated Stomach Adenocarcinoma	USTAD
+Eye	Conjunctival Melanoma	CM
+Eye	Ocular Melanoma	OM
+Eye	Retinoblastoma	RBL
+Eye	Uveal Melanoma	UM
+Head_Neck	Acinic Cell Carcinoma	ACCC
+Head_Neck	Adenoid Cystic Carcinoma	ACYC
+Head_Neck	Clear Cell Odontogenic Carcinoma	CCOC
+Head_Neck	Head and Neck Neuroendocrine Carcinoma	HNNE
+Head_Neck	Head and Neck Squamous Cell Carcinoma	HNSC
+Head_Neck	Head and Neck Squamous Cell Carcinoma of Unknown Primary	HNSCUP
+Head_Neck	Hypopharynx Squamous Cell Carcinoma	HPHSC
+Head_Neck	Larynx Squamous Cell Carcinoma	LXSC
+Head_Neck	Mucoepidermoid Carcinoma	MUCC
+Head_Neck	Myoepithelial Carcinoma	MYEC
+Head_Neck	Nasopharyngeal Carcinoma	NPC
+Head_Neck	Odontogenic Carcinoma	ODGC
+Head_Neck	Oral Cavity Squamous Cell Carcinoma	OCSC
+Head_Neck	Oropharynx Squamous Cell Carcinoma	OPHSC
+Head_Neck	Salivary Carcinoma	SACA
+Head_Neck	Salivary Duct Adenocarcinoma	SDAC
+Head_Neck	Sinonasal Squamous Cell Carcinoma	SNSC
+Kidney	Chromophobe Renal Cell Carcinoma	CHRCC
+Kidney	Clear Cell Papillary Renal Cell Carcinoma	CCPRC
+Kidney	Papillary Renal Cell Carcinoma	PRCC
+Kidney	Renal Cell Carcinoma	RCC
+Kidney	Renal Clear Cell Carcinoma	CCRCC
+Kidney	Renal Epithelioid Angiomyolipoma	REA
+Kidney	Renal Medullary Carcinoma	MRC
+Kidney	Renal Mucinous Tubular Spindle Cell Carcinoma	MTSCC
+Kidney	Renal Non-Clear Cell Carcinoma	NCCRCC
+Kidney	Renal Oncocytoma	ROCY
+Kidney	Rhabdoid Cancer	MRT
+Kidney	Sarcomatoid Renal Cell Carcinoma	SRCC
+Kidney	Unclassified Renal Cell Carcinoma	URCC
+Kidney	Wilms' Tumor	WT
+Liver	Fibrolamellar Carcinoma	LIFC
+Liver	Hepatoblastoma	LIHB
+Liver	Hepatocellular Adenoma	LIAD
+Liver	Hepatocellular Carcinoma	HCC
+Liver	Hepatocellular Carcinoma plus Intrahepatic Cholangiocarcinoma	HCCIHCH
+Liver	Liver Angiosarcoma	LIAS
+Lung	Adenoid Cystic Carcinoma of the Lung	LUACC
+Lung	Atypical Lung Carcinoid	ALUCA
+Lung	Basaloid Large Cell Carcinoma of the Lung	BLCLC
+Lung	Clear Cell Carcinoma of the Lung	CCLC
+Lung	Giant Cell Carcinoma of the Lung	GCLC
+Lung	Inflammatory Myofibroblastic Lung Tumor	IMTL
+Lung	Large Cell Lung Carcinoma	LCLC
+Lung	Large Cell Lung Carcinoma With Rhabdoid Phenotype	RLCLC
+Lung	Large Cell Neuroendocrine Carcinoma	LUNE
+Lung	Lung Adenocarcinoma	LUAD
+Lung	Lung Adenosquamous Carcinoma	LUAS
+Lung	Lung Carcinoid	LUCA
+Lung	Lung Squamous Cell Carcinoma	LUSC
+Lung	Lymphoepithelioma-like Carcinoma of the Lung	LECLC
+Lung	Mucoepidermoid Carcinoma of the Lung	LUMEC
+Lung	Non-Small Cell Lung Cancer	NSCLC
+Lung	Salivary Gland–Type Tumor of the Lung	SGTTL
+Lung	Sarcomatoid Carcinoma of the Lung	SARCL
+Lung	Small Cell Lung Cancer	SCLC
+Lymph	Anaplastic Large Cell Lymphoma	ALCL
+Lymph	B-Cell Lymphoma	BCL
+Lymph	Burkitt Lymphoma	BL
+Lymph	Diffuse Large B-Cell Lymphoma	DLBCL
+Lymph	Follicular Lymphoma	FL
+Lymph	Hodgkin's Lymphoma	HL
+Lymph	Mantle Cell Lymphoma	MCL
+Lymph	Marginal Zone Lymphoma	MZL
+Lymph	Mediastinal Large B-Cell Lymphoma	MBCL
+Lymph	Non-Hodgkin’s Lymphoma	NHL
+Lymph	Peripheral T-Cell Lymphoma	PTCL
+Lymph	Primary CNS Lymphoma	PCNSL
+Lymph	Sezary Syndrome	SEZS
+Lymph	Small Lymphocytic Lymphoma	SLL
+Lymph	T-Cell and Natural Killer Lymphoma	TNKL
+Lymph	Waldenstrom Macroglobulinemia	WM
+Other	Cancer of Unknown Primary	CUP
+Other	Mixed Cancer Types	MIXED
+Other	Unknown	UNK
+Ovary	Brenner Tumor	BTOV
+Ovary	Brenner Tumor, Benign	BTBEOV
+Ovary	Brenner Tumor, Borderline	BTBOV
+Ovary	Brenner Tumor, Malignant	BTMOV
+Ovary	Choriocarcinoma	OCCA
+Ovary	Clear Cell Borderline Ovarian Tumor	CCBOV
+Ovary	Clear Cell Ovarian Cancer	CCOV
+Ovary	Dysgerminoma	ODYS
+Ovary	Embryonal Carcinoma	OEC
+Ovary	Endometrioid Borderlin Ovarian Tumor	EBOV
+Ovary	Endometrioid Ovarian Cancer	EOV
+Ovary	Gonadoblastoma	OGBL
+Ovary	Granulosa Cell Tumor	GRCT
+Ovary	High Grade Serous Ovarian Cancer	HGSOC
+Ovary	Immature Teratoma	OIMT
+Ovary	Low Grade Serous Ovarian Cancer	LGSOC
+Ovary	Malignant Fibrothecoma	MFT
+Ovary	Mature Teratoma	OMT
+Ovary	Mixed Germ Cell Tumor	OMGCT
+Ovary	Mixed Ovarian Carcinoma	MXOV
+Ovary	Mucinous Borderline Ovarian Tumor	MBOV
+Ovary	Mucinous Ovarian Cancer	MOV
+Ovary	Ovarian Carcinosarcoma / Malignant Mixed Mesodermal Tumor	OCS
+Ovary	Ovarian Epithelial Tumor	OVT
+Ovary	Ovarian Germ Cell Tumor	OGCT
+Ovary	Ovarian Seromucinous Adenoma	OSMAD
+Ovary	Ovarian Seromucinous Borderline Tumor	OSMBT
+Ovary	Ovarian Seromucinous Carcinoma	OSMCA
+Ovary	Polyembryona	OPE
+Ovary	Serous Borderline Ovarian Tumor	SBOV
+Ovary	Serous Borderline Ovarian Tumor, Micropapillary	SBMOV
+Ovary	Serous Ovarian Cancer	SOC
+Ovary	Sertoli-Leydig Cell Tumor	SLCT
+Ovary	Sex Cord Stromal Tumors	SCST
+Ovary	Small Cell Carcinoma of the Ovary	SCCO
+Ovary	Yolk Sac Tumor	OYST
+Pancreas	Acinar Cell Carcinoma of the Pancreas	PAAC
+Pancreas	Adenosquamous Carcinoma of the Pancreas	PAASC
+Pancreas	Cystic Tumor of the Pancreas	PACT
+Pancreas	Pancreatic Adenocarcinoma	PAAD
+Pancreas	Pancreatic Neuroendocrine Tumor	PANET
+Penis	Basaloid Penile Squamous Cell Carcinoma	BPSCC
+Penis	Penile Squamous Cell Carcinoma	PSCC
+Penis	Verrucous Penile Squamous Cell Carcinoma	VPSCC
+Penis	Warty Penile Squamous Cell Carcinoma	WPSCC
+Peritoneum	Peritoneal Mesothelioma	PEMESO
+Pleura	Pleural Mesothelioma	PLMESO
+Prostate	Prostate Adenocarcinoma	PRAD
+Prostate	Prostate Neuroendocrine Carcinoma	PRNE
+Prostate	Prostate Small Cell Carcinoma	PRSCC
+Skin	Acral Melanoma	ACRM
+Skin	Aggressive Digital Papillary Adenocarcinoma	ADPA
+Skin	Atypical Fibroxanthoma	AFX
+Skin	Basal Cell Carcinoma	BCC
+Skin	Congenital Nevus	SKCN
+Skin	Cutaneous Melanoma / Spindle Cell	SKCM
+Skin	Cutaneous Squamous Cell Carcinoma	CSCC
+Skin	Dermatofibroma	DF
+Skin	Desmoplastic Melanoma	DESM
+Skin	Desmoplastic Trichoepithelioma	DTE
+Skin	Endocrine Mucin Producing Sweat Gland Carcinoma	EMPSGC
+Skin	Lentigo Maligna Melanoma	SKLMM
+Skin	Melanoma	MEL
+Skin	Merkel Cell Carcinoma	MCC
+Skin	Microcystic Adnexal Carcinoma	MAC
+Skin	Mucosal Melanoma	MUCM
+Skin	Porocarcinoma / Spiroadenocarcinoma	POCA
+Skin	Poroma / Acrospiroma	PORO
+Skin	Porphyria Cutania Tarda	PCT
+Skin	Proliferating Pilar Cystic Tumor	PPCT
+Skin	Sebaceous Carcinoma	SEBA
+Skin	Skin Adnexal Carcinoma	SKAC
+Skin	Spiroma / Spiradenoma	SPIR
+Skin	Sweat Gland Adenocarcinoma	SGAD
+Skin	Sweat Gland Carcinoma / Apocrine Eccrine Carcinoma	AECA
+Soft_Tissue	Alveolar Rhabdomyosarcoma	ARMS
+Soft_Tissue	Alveolar Soft Part Sarcoma	ASPS
+Soft_Tissue	Angiosarcoma	ANGS
+Soft_Tissue	Clear Cell Sarcoma	CCS
+Soft_Tissue	Dedifferentiated Liposarcoma	DDLS
+Soft_Tissue	Dendritic Cell Sarcoma	DCS
+Soft_Tissue	Dermatofibrosarcoma Protuberans	DFSP
+Soft_Tissue	Desmoid / Aggressive Fibromatosis	DES
+Soft_Tissue	Desmoplastic Small-Round-Cell Tumor	DSRCT
+Soft_Tissue	Embryonal Rhabdomyosarcoma	ERMS
+Soft_Tissue	Epithelioid Hemangioendothelioma	EHAE
+Soft_Tissue	Epitheloid Sarcoma	EPIS
+Soft_Tissue	Fibrosarcoma	FIBS
+Soft_Tissue	Follicular Dendritic Cell Sarcoma	FDCS
+Soft_Tissue	Gastrointestinal Stromal Tumor	GIST
+Soft_Tissue	Hemangioma	HEMA
+Soft_Tissue	Histiocytic Dendritic Cell Sarcoma	HDCS
+Soft_Tissue	Inflammatory Myofibroblastic Tumor	IMT
+Soft_Tissue	Interdigitating Dendritic Cell Sarcoma	IDCS
+Soft_Tissue	Intimal Sarcoma	INTS
+Soft_Tissue	Leiomyosarcoma	LMS
+Soft_Tissue	Liposarcoma	LIPO
+Soft_Tissue	Low-Grade Fibromyxoid Sarcoma	LGFMS
+Soft_Tissue	Myopericytoma	MPC
+Soft_Tissue	Myxofibrosarcoma	MFS
+Soft_Tissue	Myxoid / Round-Cell Liposarcoma	MRLS
+Soft_Tissue	Myxoma	MYXO
+Soft_Tissue	Ossifying Fibromyxoid Tumor	OFMT
+Soft_Tissue	Perivascular Epithelioid Cell Tumor	PECOMA
+Soft_Tissue	Pleomorphic Liposarcoma	PLLS
+Soft_Tissue	Pleomorphic Rhabdomyosarcoma	PLRMS
+Soft_Tissue	Radiation-Associated Sarcoma	RAS
+Soft_Tissue	Rhabdomyosarcoma	RMS
+Soft_Tissue	Solitary Fibrous Tumor / Hemangiopericytoma	SFT
+Soft_Tissue	Spindle Cell Rhabdomyosarcoma	SCRMS
+Soft_Tissue	Synovial Sarcoma	SYNS
+Soft_Tissue	Undifferentiated Pleomorphic Sarcoma / Malignant Fibrous Histiocytoma / High Grade Spindle Cell Sarcoma	MFH
+Soft_Tissue	Well-Differentiated Liposarcoma	WDLS
+Testis	Choriocarcinoma	TCCA
+Testis	Embryonal Carcinoma	EMBCA
+Testis	Mixed Germ Cell Tumor	MGCT
+Testis	Non-Seminomatous Germ Cell Tumor	NSGCT
+Testis	Seminoma	SEM
+Testis	Teratoma	TT
+Testis	Testicular Mesothelioma	TMESO
+Testis	Yolk Sac Tumor	TYST
+Thymus	Thymic Carcinoma	THYC
+Thymus	Thymic Epithelial Tumor	TET
+Thymus	Thymoma	THYM
+Thyroid	Anaplastic Thyroid Cancer	THAP
+Thyroid	Follicular Thyroid Cancer	THFO
+Thyroid	Hurthle Cell Thyroid Cancer	THHC
+Thyroid	Medullary Thyroid Cancer	THME
+Thyroid	Papillary Thyroid Cancer	THPA
+Thyroid	Poorly Differentiated Thyroid Cancer	THPD
+Uterus	Choriocarcinoma	UCCA
+Uterus	Complete Hydatidiform Mole	CHM
+Uterus	Endometrial Carcinoma	UCEC
+Uterus	Epithelioid Trophoblastic Tumor	ETT
+Uterus	Gestational Trophoblastic Disease	GTD
+Uterus	High Grade Endometrial Stromal Sarcoma	HGUESS
+Uterus	Invasive Hydatidiform Mole	IHM
+Uterus	Low Grade Endometrial Stromal Sarcoma	LGUESS
+Uterus	Molar Pregnancy	MP
+Uterus	Other Uterine Tumor	OUTT
+Uterus	Partial Hydatidiform Mole	PHM
+Uterus	Placental Site Trophoblastic Tumor	PSTT
+Uterus	Undifferentiated Uterine Sarcoma	UUS
+Uterus	Uterine Adenosarcoma	UAS
+Uterus	Uterine Adenosquamous Carcinoma	UASC
+Uterus	Uterine Carcinosarcoma / Uterine Malignant Mixed Müllerian Tumor	UCS
+Uterus	Uterine Clear Cell Carcinoma	UCCC
+Uterus	Uterine Endometrial Stromal Sarcoma	UESS
+Uterus	Uterine Endometrioid Carcinoma	UEC
+Uterus	Uterine Epithelioid Leiomyosarcoma	UELMS
+Uterus	Uterine Leiomyoma	ULM
+Uterus	Uterine Leiomyosarcoma	ULMS
+Uterus	Uterine Mixed Endometrial Carcinoma	UMEC
+Uterus	Uterine Mucinous Carcinoma	UMC
+Uterus	Uterine Myxoid Leiomyosarcoma	UMLMS
+Uterus	Uterine Neuroendocrine Carcinoma	UNEC
+Uterus	Uterine Perivascular Epithelioid Cell Tumor	UPECOMA
+Uterus	Uterine Sarcoma / Mesenchymal	USARC
+Uterus	Uterine Sarcoma, Other	OUSARC
+Uterus	Uterine Serous Carcinoma / Uterine Papillary Serous Carcinoma	USC
+Uterus	Uterine Smooth Muscle Tumor	USMT
+Uterus	Uterine Smooth Muscle Tumor of Uncertain Malignant Potential	USTUMP
+Uterus	Uterine Undifferentiated Carcinoma	UUC
+Vulva	Choriocarcinoma	VCCA
+Vulva	Dysgerminoma	VDYS
+Vulva	Embryonal Carcinoma	VOEC
+Vulva	Germ Cell Tumor of the Vulva	VGCT
+Vulva	Immature Teratoma	VIMT
+Vulva	Mature Teratoma	VMT
+Vulva	Melanoma of the Vulva	VM
+Vulva	Mixed Germ Cell Tumor	VMGCT
+Vulva	Polyembryona	VPE
+Vulva	Squamous Cell Carcinoma of the Vulva	VSC
+Vulva	Yolk Sac Tumor	VYST

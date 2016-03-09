@@ -1,0 +1,31 @@
+GENE_REGION	Gene region containing variant
+GENE_SYMBOL	Gene containing variant
+TRANSCRIPT_ID	Transcript containing variant
+HGVS_TRANSCRIPT	HGVS transcript variant
+HGVS_PROTEIN	HGVS protein variant
+TRANSLATION_IMPACT	Translation impact
+SIFT_FUNCTION	SIFT functional prediction
+POLYPHEN_FUNCTION	PolyPhen-2 functional prediction
+BLOSUM50	BLOSUM50 biochemical conservation score
+PHYLOP	PhyloP vertebrate conservation p-value
+AFC_AF	Allele Frequency Community allele frequency (percent)
+DBSNP	dbSNP identifiers
+1000G_AF	1000 Genomes project allele frequency (percent)
+ESP_AF	Exome Server Project allele frequency (percent)
+ESP_AF_AA	Exome Server Project African American allele frequency (percent)
+ESP_AF_EA	Exome Server Project European American allele frequency (percent)
+ESP_PUBLIC_HOMOZYGOTES	Exome Server Project homozygotes
+CLINVAR_OBSERVATIONS	Number of individuals reported with this variant in ClinVar
+CLINVAR	Reference ClinVar accession
+PUBMED	PubMed identifiers for articles about this variant
+CLI_ASSESSMENT	Laboratory assessment of variant
+CLI_REPORTABLE	Whether and where variant should be included in report
+END	End position of the variant described in this record
+SVLEN	Difference in length between REF and ALT alleles
+SVTYPE	Type of structural variant
+GT	Genotype
+CQ	Call Quality
+DP	Read Depth
+AF	Allele Frequency
+ING_CH	Ingenuity Inferred Compound Heterozygous
+ING_IA	Ingenuity Inferred Activity

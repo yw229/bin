@@ -1,0 +1,11 @@
+tissue_type	tumor_type	code
+Peritoneum	Peritoneal Mesothelioma	PEMESO
+Testis	Embryonal Carcinoma	EMBCA
+Testis	Testicular Mesothelioma	TMESO
+Testis	Teratoma	TT
+Testis	Yolk Sac Tumor	TYST
+Pleura	Pleural Mesothelioma	PLMESO
+Testis	Choriocarcinoma	TCCA
+Testis	Seminoma	SEM
+Testis	Non-Seminomatous Germ Cell Tumor	NSGCT
+Testis	Mixed Germ Cell Tumor	MGCT
